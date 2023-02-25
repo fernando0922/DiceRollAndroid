@@ -6,7 +6,6 @@ import com.example.diceroller.R
 
 class Dice() {
 
-    @SuppressLint("SetTextI18n")
     fun roll(imgView:ImageView){
         when ((1..6).random()){
             1 ->  imgView.setImageResource(R.drawable.dice_1)
